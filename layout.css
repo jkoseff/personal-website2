@@ -1,0 +1,27 @@
+#main_heading {
+ position:absolute;
+ top:80px;
+ left:250px;
+}
+
+#mainNav li{
+ display:inline;
+}
+
+#second_heading {
+ position:absolute;
+ top:35px;
+ left:22px;
+}
+
+#work_heading {
+ position:relative;
+ top:170px;
+ left:22px;
+}
+
+#contact {
+ position:relative;
+ top:115px;
+ text-align:center;
+}

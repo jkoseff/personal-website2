@@ -1,0 +1,23 @@
+body {
+ background-color:PaleTurquoise;
+}
+ 
+h1 {
+ font-family:"Monotype Corsiva", "Arial";
+ font-weight:200;
+ font-size:45px;
+ text-align:left;
+}
+
+.resume_page {
+ position:relative;
+ top:80px;
+}
+
+.intro {
+ position:absolute;
+ top:270px;
+ left:22px;
+ right:60px;
+ font-size:18px
+}

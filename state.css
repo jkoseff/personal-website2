@@ -1,0 +1,24 @@
+#mainNav a:hover {
+ background-color:#E085FF
+}
+
+#work_heading2 {
+ position:relative;
+ top:195px;
+ left:22px;
+}
+
+.screenshot:hover {
+ border:2px solid red;
+}
+
+.gallery_vertical:hover {
+ width:225px;
+ height:300px;
+}
+
+.gallery_horizontal:hover {
+ width:375px;
+ height:300px;
+}
+

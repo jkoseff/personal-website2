@@ -1,0 +1,165 @@
+body {
+ background-color:PaleTurquoise;
+ }
+ 
+#mainImage{
+ border:2px solid darkblue;
+ width:175;
+ height:200;
+ float:left;
+ margin:20px
+ }
+ 
+h1 {
+ font-family:"Monotype Corsiva", "Arial";
+ font-weight:200;
+ font-size:45px;
+ text-align:left;
+}
+ 
+#main_heading {
+ position:absolute;
+ top:80px;
+ left:250px;
+}
+
+#mainNav {
+ list-style-type:none;
+ margin:15px;
+ padding:0;
+ position:absolute;
+ left:220px;
+ }
+ 
+#mainNav a {
+ color:#000;
+ font-size:11px;
+ font-weight:bold;
+ text-transform:uppercase;
+ text-decoration:none;
+ border:1px solid #999;
+ padding: 7px 30px 7px 30px;
+ background-color:#EED0EE;
+}
+
+#mainNav a:hover {
+ background-color:#E085FF
+}
+
+#mainNav li{
+ display:inline;
+}
+
+.resume_page {
+ position:relative;
+ top:80px;
+}
+ 
+.intro {
+ position:absolute;
+ top:270px;
+ left:22px;
+ right:60px;
+ font-size:18px
+}
+
+#second_heading {
+ position:absolute;
+ top:35px;
+ left:22px;
+}
+
+.about_paragraph {
+ font-size:17px;
+ position:absolute;
+ top:150px;
+ left:22px;
+ right:500px;
+}
+
+#work_heading {
+ position:relative;
+ top:170px;
+ left:22px;
+}
+
+.website {
+ font-size:17px;
+ position:relative;
+ top:172px;
+ left:22px;
+}
+
+.website a {
+ text-decoration:none;
+ font-style:italic;
+}
+
+#work_heading2 {
+ position:relative;
+ top:195px;
+ left:22px;
+}
+
+.screenshot_heading {
+ position:relative;
+ top:215px;
+ left:22px;
+}
+
+.screenshot {
+ width:325;
+ height:200;
+ position:relative;
+ top:215px;
+ left:22px;
+ border:2px solid black;
+}
+
+.screenshot:hover {
+ border:2px solid red;
+}
+
+.screenshot_caption {
+ position:relative;
+ top:225px;
+ left:22px;
+}
+
+.gallery_vertical {
+ position:relative;
+ top:150px;
+ left:22px;
+ width:150px;
+ height:200px;
+}
+
+.gallery_vertical:hover {
+ width:225px;
+ height:300px;
+}
+
+.gallery_horizontal {
+ position:relative;
+ top:150px;
+ left:22px;
+ width:250px;
+ height:200px;
+}
+
+.gallery_horizontal:hover {
+ width:375px;
+ height:300px;
+}
+
+.contact_method {
+ position:relative;
+ top:130px;
+ text-align:center
+}
+
+#contact {
+ position:relative;
+ top:115px;
+ text-align:center;
+}
