@@ -25,3 +25,14 @@
  top:115px;
  text-align:center;
 }
+
+#copyright {
+	position:relative;
+	top:70px;
+}
+
+#copyrightLink {
+	position:relative;
+	top:550px;
+	right:180px;
+}
