@@ -1,4 +1,5 @@
 @headerColor:#6699FF;
+@contentToFront:2;
 
 .position(@top, @bottom, @left, @right) {
 	top:@top;
@@ -39,7 +40,7 @@ body {
 	list-style-type:none;
 	margin:15px;
 	padding:0;
-	z-index:2;
+	z-index:@contentToFront;
 	
 	a {
 		 color:#000;
@@ -64,7 +65,7 @@ body {
 #main_heading {
 	position:absolute;
 	.position(10px, 0px, 40px, 0px);
-	z-index:2;
+	z-index:@contentToFront;
 }
 
 #mainImage{
@@ -87,7 +88,7 @@ body {
 		position:fixed;
 		left:45%;
 		bottom:0px;
-		z-index:2;
+		z-index:@contentToFront;
 	}
 }
 
@@ -189,7 +190,7 @@ body {
 .contact_method {
 	position:relative;
 	top:150px;
-	text-align:center
+	text-align:center;
 }
 
 #copyright {
@@ -200,7 +201,7 @@ body {
 #copyrightLink {
 	position:relative;
 	.position(550px, 0px, 0px, 180px);
-	z-index:2
+	z-index:@contentToFront;
 }
 
 
