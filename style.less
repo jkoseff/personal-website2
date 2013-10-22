@@ -1,5 +1,4 @@
 @headerColor:#6699FF;
-@contentToFront:2;
 
 .position(@top, @bottom, @left, @right) {
 	top:@top;
@@ -40,7 +39,7 @@ body {
 	list-style-type:none;
 	margin:15px;
 	padding:0;
-	z-index:@contentToFront;
+	z-index:4;
 	
 	a {
 		 color:#000;
@@ -65,7 +64,7 @@ body {
 #main_heading {
 	position:absolute;
 	.position(10px, 0px, 40px, 0px);
-	z-index:@contentToFront;
+	z-index:2;
 }
 
 #mainImage{
@@ -83,13 +82,20 @@ body {
 	right:0px;
 	left:0px;
 	height:100px;
+}
 	
-	#copyrightLink {
-		position:fixed;
-		left:45%;
-		bottom:0px;
-		z-index:@contentToFront;
-	}
+#copyright {
+	position:fixed;
+	left:45%;
+	bottom:40px;
+	z-index:4;
+}
+
+#copyrightCaption {
+	position:fixed;
+	left:25%;
+	bottom:0px;
+	z-index:4;
 }
 
 .intro {
@@ -193,16 +199,7 @@ body {
 	text-align:center;
 }
 
-#copyright {
-	position:relative;
-	top:70px;
-}
 
-#copyrightLink {
-	position:relative;
-	.position(550px, 0px, 0px, 180px);
-	z-index:@contentToFront;
-}
 
 
 
